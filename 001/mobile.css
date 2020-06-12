@@ -1,0 +1,28 @@
+@media (max-width: 500px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: 2000px;
+  }
+
+  .container {
+    width: 500px;
+    margin: 180px 0px;
+    align-self: center;
+  }
+
+  .container .main-img {
+    display: none;
+  }
+
+  .container .form .title h1 {
+    font-size: 60px;
+  }
+  .container .form .inputs .input {
+    border-radius: 15px;
+    box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+  }
+  .container .form .inputs .input input {
+    border-bottom: 0;
+  }
+}
