@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MuseoModerno", cursive;
+}
+
+body {
+  background-color: #76d7c4;
+}
+
+.container {
+  width: 700px;
+  margin: 150px 350px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 10px;
+}
+
+.container .card-info {
+  width: 500px;
+  height: 400px;
+  background-color: #fff; /*#F39C12*/
+  border-radius: 10px 0 0 10px;
+}
+
+.container .card-info .card .brand-card {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card-info .card .brand-card img {
+  width: 80px;
+}
+hr {
+  margin: 0 12px;
+}
+
+.card-info .card .inputs {
+  padding: 20px;
+}
+
+.card-info .card .inputs input {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* border: none; */
+  border: 1px solid rgba(0, 0, 0, 0.644);
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  margin: 20px;
+}
+
+.card-info .card .inputs .name {
+  background-image: url("https://cdn.onlinewebfonts.com/svg/img_162044.png");
+}
+
+.card-info .card .inputs .number {
+  background-image: url("https://static.thenounproject.com/png/2891135-200.png");
+}
+.card-info .card .inputs .exp {
+  background-image: url("https://cdn.onlinewebfonts.com/svg/img_247795.png");
+}
+.card-info .card .inputs .cvv {
+  background-image: url("https://static.thenounproject.com/png/1037766-200.png");
+  margin-left: 60px;
+}
+
+.card-info .card .inputs .big {
+  width: 400px;
+}
+.card-info .card .inputs .small {
+  width: 150px;
+}
+
+.card-info .card button {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px;
+  margin: 2px;
+  margin-left: 200px;
+  font-size: 20px;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.container .order {
+  background-color: #76d7c4;
+  width: 200px;
+  height: 400px;
+  border-radius: 0 10px 10px 0;
+  /* display: flex; */
+  align-items: center;
+}
+
+.container .order div {
+  margin: 40px;
+}
+.container .order p {
+  margin: 10px;
+}
+
+.container .order input {
+  margin-left: 60px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  box-shadow: inset 2px 2px 5px rgba(128, 128, 128, 0.5);
+}
