@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  margin: 200px auto;
+  background: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+}
+.candle {
+  height: 30px;
+  width: 10px;
+  background-color: yellow;
+
+  margin: 0px auto;
+}
+.glaze {
+  width: 150px;
+  margin: 0px auto;
+}
+
+.glaze .top {
+  background: rgb(137, 136, 142);
+  background: linear-gradient(
+    0deg,
+    rgba(137, 136, 142, 1) 0%,
+    rgba(244, 242, 176, 1) 100%
+  );
+  width: 30px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 0 100px 68px 158px;
+}
+
+.glaze .one {
+  background: rgb(137, 136, 142);
+  background: linear-gradient(
+    0deg,
+    rgba(137, 136, 142, 1) 0%,
+    rgba(244, 242, 176, 1) 100%
+  );
+  width: 75px;
+  margin-left: 38px;
+  height: 18px;
+  border-radius: 60px 40px 30px 10px;
+}
+.glaze .two {
+  background: rgb(137, 136, 142);
+  background: linear-gradient(
+    0deg,
+    rgba(137, 136, 142, 1) 0%,
+    rgba(244, 242, 176, 1) 100%
+  );
+  width: 125px;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 60px 40px 20px 10px;
+}
+.glaze .three {
+  background: rgb(137, 136, 142);
+  background: linear-gradient(
+    0deg,
+    rgba(137, 136, 142, 1) 0%,
+    rgba(244, 242, 176, 1) 100%
+  );
+  width: 150px;
+  margin: 0 auto;
+  height: 20px;
+  border-radius: 60px 40px 30px 30px;
+}
+.cake {
+  height: 26px;
+  width: 170px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 194, 2, 1) 0%,
+    rgba(171, 82, 0, 1) 100%
+  );
+  margin: 0px auto;
+  border-radius: 50px 50px 20px 20px;
+}
+.cup {
+  /* background: linear-gradient(
+    90deg,
+    rgba(15, 255, 2, 1) 0%,
+    rgba(8, 77, 0, 1) 7%,
+    rgba(15, 255, 2, 1) 16%,
+    rgba(8, 77, 0, 1) 24%,
+    rgba(15, 255, 2, 1) 32%,
+    rgba(8, 77, 0, 1) 41%,
+    rgba(15, 255, 2, 1) 49%,
+    rgba(8, 77, 0, 1) 56%,
+    rgba(15, 255, 2, 1) 62%,
+    rgba(8, 77, 0, 1) 70%,
+    rgba(15, 255, 2, 1) 77%,
+    rgba(8, 77, 0, 1) 84%,
+    rgba(15, 255, 2, 1) 92%,
+    rgba(8, 77, 0, 1) 100%
+  ); */
+  width: 120px;
+  height: 60px;
+  border-top: 60px solid #d53369;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: 0px auto;
+  border-radius: 2px;
+}
+background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
