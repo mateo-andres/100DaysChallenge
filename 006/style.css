@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+}
+
+body {
+}
+
+.landscape {
+  height: 170px;
+  width: 100vw;
+  background-image: url("https://i.pinimg.com/564x/ec/7f/5f/ec7f5f7584e2608a8e04d84365a2947c.jpg");
+  background-position: bottom;
+  background-repeat: repeat;
+}
+
+.content {
+  background-color: #a93226;
+  padding: 5px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 300px 1fr 350px;
+  grid-template-rows: 200px;
+  border-radius: 5px;
+}
+
+.content .profile {
+  grid-column: 2;
+  margin: 0 auto;
+  width: 200px;
+  position: relative;
+  top: -100px;
+  color: white;
+  text-align: center;
+}
+.content .picture img {
+  border-radius: 50%;
+  width: 200px;
+  border: 5px solid white;
+}
+
+.profile .name {
+  font-size: 25px;
+}
+.profile .username {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bar {
+  color: white;
+  border-left: 5px solid white;
+  padding: 8px;
+  margin-left: 25px;
+  grid-row: 2;
+}
+
+.bar div {
+  text-align: center;
+  margin: 30px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+}
+
+.feed {
+  grid-row: 2;
+  grid-column: 2;
+  width: 700px;
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.feed .article {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.feed .article h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.feed .article .text {
+  font-weight: 500;
+  text-align: justify;
+}
+.feed .article .info {
+  text-align: center;
+}
+
+.right {
+  grid-row: 2;
+  margin: 10px;
+}
+
+.right .add {
+  margin-top: 15px;
+}
+
+.right h1 {
+  color: white;
+  font-size: 18px;
+}
