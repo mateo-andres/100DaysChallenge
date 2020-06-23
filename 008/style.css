@@ -1,0 +1,46 @@
+* {
+  font-family: "Sedgwick Ave", serif;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/564x/e5/2b/fa/e52bfabd131ce16b7ccb1c30dda657e6.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-position-x: right;
+}
+
+h1 {
+  font-size: 280px;
+  margin: 100px 200px;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(#d35400, #f4d03f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  margin: 0 80px;
+  text-align: center;
+  width: 800px;
+}
+
+.text .one {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#03294e, #1abc9c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text .two {
+  font-size: 20px;
+}
+
+.text button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f4d03f;
+  outline: none;
+  cursor: pointer;
+}
