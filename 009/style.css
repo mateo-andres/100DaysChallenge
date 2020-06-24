@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #392952;
+}
+
+.box {
+  background-color: #b2a7c2;
+  width: 350px;
+  margin: 50px auto;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  align-items: center;
+  text-align: center;
+}
+header img {
+  width: 20px;
+}
+
+.song-img {
+  background-image: url("https://media.revistagq.com/photos/5ca5f4d3267a322393724870/master/w_2000,c_limit/gorillaz_425.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  margin: 80px auto;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.dots {
+  width: 20px;
+  margin: 15px 48%;
+}
+
+.bar {
+  width: 280px;
+  margin: 0 auto;
+}
+.bar .line {
+  border: 2px solid #392952;
+  position: relative;
+}
+.bar .line::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 30px;
+  bottom: -6px;
+  border-radius: 50%;
+  background-color: #392952;
+}
+.bar .time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #392952;
+  margin: 5px;
+}
+
+.buttons {
+  width: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons .big {
+  width: 50px;
+}
+.buttons .small {
+  width: 30px;
+}
+
+footer {
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px 15px 5px 5px;
+}
+
+footer img {
+  width: 15px;
+  margin: 0 20px;
+}
