@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.share {
+  background-color: darkgrey;
+  margin: 200px auto;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: fit-content;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.share-box {
+  display: flex;
+  background-color: darkgrey;
+  margin: 200px auto;
+  margin-top: 0px;
+  width: fit-content;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.share-box .button {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.share-box .face:hover {
+  background-color: #2e86c1;
+}
+.share-box .twitter:hover {
+  background-color: #85c1e9;
+}
+.share-box .dribble:hover {
+  background-color: #ff008b;
+}
+.share-box .link:hover {
+  background-color: #2ecc71;
+}
