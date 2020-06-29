@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #bb8fce;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.box {
+  margin: 100px 50px;
+  text-align: center;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  padding: 15px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+.successful {
+  background-image: url(happy.jpg);
+  background-position: initial;
+}
+.unsuccessful {
+  background-image: url(sad.jpg);
+  color: black;
+}
+
+.box h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.box .message {
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 90px;
+}
+.box button {
+  background-color: transparent;
+  font-weight: 800;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 37%;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.successful button {
+  background-color: orange;
+}
+.unsuccessful button {
+  background-color: white;
+}
